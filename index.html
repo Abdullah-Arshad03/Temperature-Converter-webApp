@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 class="top-heading">Temperature Converter</h1>
+      </nav>
+    </header>
+
+    <main>
+      <div class="converter">
+        <div>
+          <h1 class="converter-heading">Enter The Temperature</h1>
+        </div>
+        <div class="form">
+          <form onsubmit="tempcalc(event)">
+            <div class="input-feilds">
+              <div class="input-temp">
+                <input
+                  type="number"
+                  id="temp"
+                  class="temp"
+                  placeholder="Enter Temperature :"
+                />
+              </div>
+              <div class="options">
+                <select name="select" id="select">
+                  <option value="celcius">Celcius</option>
+                  <option value="Farenheit">Frenheit</option>
+                </select>
+              </div>
+            </div>
+            <div class="submit-btn" style="margin-top: 40px;">
+              <button id="btn" type="submit">Convert</button>
+            </div>
+          </form>
+          <div class="result-container">
+          <div id="result" class="result"></div>
+        </div>
+      </div>
+      </div>
+    </main>
+    <footer>
+      <h6>  <p>&copy; All Rights Reserved to Abdullah Bin Arshad</p></h6>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>

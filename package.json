@@ -1,0 +1,11 @@
+{
+  "name": "temperature-converter",
+  "version": "1.0.0",
+  "description": "Temperature converter web application created by Abdullah Bin Arshad. It converts temperature from celsius to Fahrenheitand from Fahrenheit to celsius",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abdullah Bin Arshad",
+  "license": "ISC"
+}
